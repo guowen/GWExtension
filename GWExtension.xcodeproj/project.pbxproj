@@ -15,6 +15,15 @@
 		B231834C1CE32ECA0077C910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B231834A1CE32ECA0077C910 /* LaunchScreen.storyboard */; };
 		B23183571CE32ECB0077C910 /* GWExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23183561CE32ECB0077C910 /* GWExtensionTests.m */; };
 		B23183621CE32ECB0077C910 /* GWExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23183611CE32ECB0077C910 /* GWExtensionUITests.m */; };
+		B23183841CE32F120077C910 /* GWRuntimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B23183721CE32F120077C910 /* GWRuntimeUtil.m */; };
+		B23183851CE32F120077C910 /* NSObject+GWCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B23183741CE32F120077C910 /* NSObject+GWCoding.m */; };
+		B23183861CE32F120077C910 /* NSObject+GWToDic.m in Sources */ = {isa = PBXBuildFile; fileRef = B23183761CE32F120077C910 /* NSObject+GWToDic.m */; };
+		B23183871CE32F120077C910 /* NSObject+GWToObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B23183781CE32F120077C910 /* NSObject+GWToObj.m */; };
+		B23183881CE32F120077C910 /* GWBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B231837B1CE32F120077C910 /* GWBaseObject.m */; };
+		B23183891CE32F120077C910 /* GWBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B231837D1CE32F120077C910 /* GWBook.m */; };
+		B231838A1CE32F120077C910 /* GWSpecialty.m in Sources */ = {isa = PBXBuildFile; fileRef = B231837F1CE32F120077C910 /* GWSpecialty.m */; };
+		B231838B1CE32F120077C910 /* GWStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = B23183811CE32F120077C910 /* GWStudent.m */; };
+		B231838C1CE32F120077C910 /* GWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B23183831CE32F120077C910 /* GWUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,25 @@
 		B231835D1CE32ECB0077C910 /* GWExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23183611CE32ECB0077C910 /* GWExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWExtensionUITests.m; sourceTree = "<group>"; };
 		B23183631CE32ECB0077C910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23183701CE32F120077C910 /* GWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWExtension.h; sourceTree = "<group>"; };
+		B23183711CE32F120077C910 /* GWRuntimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWRuntimeUtil.h; sourceTree = "<group>"; };
+		B23183721CE32F120077C910 /* GWRuntimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWRuntimeUtil.m; sourceTree = "<group>"; };
+		B23183731CE32F120077C910 /* NSObject+GWCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GWCoding.h"; sourceTree = "<group>"; };
+		B23183741CE32F120077C910 /* NSObject+GWCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GWCoding.m"; sourceTree = "<group>"; };
+		B23183751CE32F120077C910 /* NSObject+GWToDic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GWToDic.h"; sourceTree = "<group>"; };
+		B23183761CE32F120077C910 /* NSObject+GWToDic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GWToDic.m"; sourceTree = "<group>"; };
+		B23183771CE32F120077C910 /* NSObject+GWToObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GWToObj.h"; sourceTree = "<group>"; };
+		B23183781CE32F120077C910 /* NSObject+GWToObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GWToObj.m"; sourceTree = "<group>"; };
+		B231837A1CE32F120077C910 /* GWBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWBaseObject.h; sourceTree = "<group>"; };
+		B231837B1CE32F120077C910 /* GWBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWBaseObject.m; sourceTree = "<group>"; };
+		B231837C1CE32F120077C910 /* GWBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWBook.h; sourceTree = "<group>"; };
+		B231837D1CE32F120077C910 /* GWBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWBook.m; sourceTree = "<group>"; };
+		B231837E1CE32F120077C910 /* GWSpecialty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSpecialty.h; sourceTree = "<group>"; };
+		B231837F1CE32F120077C910 /* GWSpecialty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSpecialty.m; sourceTree = "<group>"; };
+		B23183801CE32F120077C910 /* GWStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWStudent.h; sourceTree = "<group>"; };
+		B23183811CE32F120077C910 /* GWStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWStudent.m; sourceTree = "<group>"; };
+		B23183821CE32F120077C910 /* GWUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWUser.h; sourceTree = "<group>"; };
+		B23183831CE32F120077C910 /* GWUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +129,8 @@
 		B231833B1CE32ECA0077C910 /* GWExtension */ = {
 			isa = PBXGroup;
 			children = (
+				B231836F1CE32F120077C910 /* GWExtension */,
+				B23183791CE32F120077C910 /* Model */,
 				B231833F1CE32ECA0077C910 /* AppDelegate.h */,
 				B23183401CE32ECA0077C910 /* AppDelegate.m */,
 				B23183421CE32ECA0077C910 /* ViewController.h */,
@@ -138,6 +168,39 @@
 				B23183631CE32ECB0077C910 /* Info.plist */,
 			);
 			path = GWExtensionUITests;
+			sourceTree = "<group>";
+		};
+		B231836F1CE32F120077C910 /* GWExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B23183701CE32F120077C910 /* GWExtension.h */,
+				B23183711CE32F120077C910 /* GWRuntimeUtil.h */,
+				B23183721CE32F120077C910 /* GWRuntimeUtil.m */,
+				B23183731CE32F120077C910 /* NSObject+GWCoding.h */,
+				B23183741CE32F120077C910 /* NSObject+GWCoding.m */,
+				B23183751CE32F120077C910 /* NSObject+GWToDic.h */,
+				B23183761CE32F120077C910 /* NSObject+GWToDic.m */,
+				B23183771CE32F120077C910 /* NSObject+GWToObj.h */,
+				B23183781CE32F120077C910 /* NSObject+GWToObj.m */,
+			);
+			path = GWExtension;
+			sourceTree = "<group>";
+		};
+		B23183791CE32F120077C910 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B231837A1CE32F120077C910 /* GWBaseObject.h */,
+				B231837B1CE32F120077C910 /* GWBaseObject.m */,
+				B231837C1CE32F120077C910 /* GWBook.h */,
+				B231837D1CE32F120077C910 /* GWBook.m */,
+				B231837E1CE32F120077C910 /* GWSpecialty.h */,
+				B231837F1CE32F120077C910 /* GWSpecialty.m */,
+				B23183801CE32F120077C910 /* GWStudent.h */,
+				B23183811CE32F120077C910 /* GWStudent.m */,
+				B23183821CE32F120077C910 /* GWUser.h */,
+				B23183831CE32F120077C910 /* GWUser.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +333,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23183891CE32F120077C910 /* GWBook.m in Sources */,
 				B23183441CE32ECA0077C910 /* ViewController.m in Sources */,
+				B23183881CE32F120077C910 /* GWBaseObject.m in Sources */,
 				B23183411CE32ECA0077C910 /* AppDelegate.m in Sources */,
+				B231838C1CE32F120077C910 /* GWUser.m in Sources */,
+				B23183841CE32F120077C910 /* GWRuntimeUtil.m in Sources */,
+				B23183871CE32F120077C910 /* NSObject+GWToObj.m in Sources */,
+				B231838A1CE32F120077C910 /* GWSpecialty.m in Sources */,
+				B23183851CE32F120077C910 /* NSObject+GWCoding.m in Sources */,
+				B231838B1CE32F120077C910 /* GWStudent.m in Sources */,
 				B231833E1CE32ECA0077C910 /* main.m in Sources */,
+				B23183861CE32F120077C910 /* NSObject+GWToDic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
