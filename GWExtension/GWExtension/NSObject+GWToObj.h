@@ -18,10 +18,10 @@
  *  通过字典来创建一个模型
  *  @return 模型
  */
-+ (instancetype)toObjWithDic:(NSDictionary *)dic;
++ (instancetype)objWithDic:(NSDictionary *)dic;
 /**
  *  通过字典来转换一个模型
  *  @return 模型
  */
-- (instancetype)toObjWithDic:(NSDictionary *)dic;
+- (instancetype)objWithDic:(NSDictionary *)dic;
 @end

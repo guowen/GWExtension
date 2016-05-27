@@ -27,7 +27,7 @@
   GWSpecialty *c1 = [self createGWSpecialty];
   NSDictionary *dic = [c1 toDic]; //模型转字典
   
-  GWSpecialty *c2 = [GWSpecialty toObjWithDic:dic]; //字典转模型
+  GWSpecialty *c2 = [GWSpecialty objWithDic:dic]; //字典转模型
   
   [self saveArchiver:c2]; //对象编码存储
   

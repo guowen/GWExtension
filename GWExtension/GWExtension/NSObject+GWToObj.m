@@ -11,11 +11,11 @@
 
 @implementation NSObject (GWToObj)
 
-+ (instancetype)toObjWithDic:(NSDictionary *)dic {
-  return [[[self alloc] init] toObjWithDic:dic];
++ (instancetype)objWithDic:(NSDictionary *)dic {
+  return [[[self alloc] init] objWithDic:dic];
 }
 
-- (id)toObjWithDic:(NSDictionary *)dic {
+- (id)objWithDic:(NSDictionary *)dic {
   for (NSString *key in [GWRuntimeUtil propertyNames:[self class]]) {
     id value = [dic valueForKey:key];
     
@@ -36,7 +36,7 @@
 
 - (id)valueForKey:(NSString *)key dic:(NSDictionary *)dic {
   Class dc = [GWRuntimeUtil classWithPropertyName:key cls:[self class]];
-  return [dc toObjWithDic:dic];
+  return [dc objWithDic:dic];
 }
 
 - (id)valueForKey:(NSString *)key array:(NSArray *)array {
@@ -44,7 +44,7 @@
   for (id obj in array) {
     if ([[obj class] isSubclassOfClass:[NSDictionary class]]) {
       Class ac = NSClassFromString([[self class] arrayElementsClass][key]);
-      [value addObject:[ac toObjWithDic:obj]];
+      [value addObject:[ac objWithDic:obj]];
     } else {
       [value addObject:obj];
     }
